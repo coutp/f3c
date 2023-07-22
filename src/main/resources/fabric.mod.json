@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "f3c",
+	"version": "${version}",
+	"name": "F3C",
+	"description": "Changes clipboard of F3 + C, deleting /execute, remains only x, y, z coordinates",
+	"authors": [
+		"couturey"
+	],
+	"contact": {
+		"sources": "https://github.com/coutp/f3c"
+	},
+	"license": "All Rights Reserved",
+	"icon": "assets/f3c/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "com.couturey.f3c.F3C"
+		],
+		"fabric-datagen": [
+			"com.couturey.f3c.F3CDataGenerator"
+		]
+	},
+	"mixins": [
+		"f3c.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
