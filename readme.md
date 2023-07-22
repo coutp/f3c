@@ -5,8 +5,6 @@ ___
 ## Features
 ___
 Changes text in clipboard after using *F3 + C* combination
-
-img here
 ___
 ## To do
 ___
