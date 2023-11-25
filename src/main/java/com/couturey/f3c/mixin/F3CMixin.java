@@ -25,7 +25,7 @@ public class F3CMixin {
 				int y = (int) Math.round(MinecraftClient.getInstance().player.getY());
 				int z = (int) Math.round(MinecraftClient.getInstance().player.getZ());
 
-				String coordinates = String.format("x: %d, y: %d, z: %d", x, y, z);
+				String coordinates = String.format("%d %d %d", x, y, z);
 				GLFW.glfwSetClipboardString(MinecraftClient.getInstance().getWindow().getHandle(), coordinates);
 
 				keysPressed = true;
