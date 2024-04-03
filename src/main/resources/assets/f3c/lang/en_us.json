@@ -1,0 +1,7 @@
+{
+  "text.autoconfig.f3c.title": "F3C Config",
+  "text.autoconfig.f3c.option.modEnabled": "Activate mod",
+  "text.autoconfig.f3c.option.modEnabled.@Tooltip": "Activates mod :D",
+  "text.autoconfig.f3c.option.chatOutput": "Chat output formatting",
+  "text.autoconfig.f3c.option.chatOutput.@Tooltip": "Each percent-d mean one of coordinates: X, Y and Z."
+}
