@@ -19,6 +19,9 @@
 		],
 		"fabric-datagen": [
 			"com.couturey.f3c.F3CDataGenerator"
+		],
+		"modmenu": [
+			"com.couturey.f3c.config.ModMenu"
 		]
 	},
 	"mixins": [
@@ -31,6 +34,7 @@
 		"fabric-api": "*"
 	},
 	"suggests": {
-		"another-mod": "*"
+		"cloth-config": "*",
+		"modmenu": "*"
 	}
 }

@@ -1,0 +1,7 @@
+{
+  "text.autoconfig.f3c.title": "F3C Конфигурация",
+  "text.autoconfig.f3c.option.modEnabled": "Включить мод",
+  "text.autoconfig.f3c.option.modEnabled.@Tooltip": "Включает мод :D",
+  "text.autoconfig.f3c.option.chatOutput": "Форматировка вывода в чат",
+  "text.autoconfig.f3c.option.chatOutput.@Tooltip": "Каждый процент-d означает одну из осей координат: X, Y и Z."
+}
